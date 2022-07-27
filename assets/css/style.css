@@ -5,12 +5,32 @@
     box-sizing: border-box;
 }
 
-nav{
-    font-family: 'Montserrat', sans-serif;
+.nav--memu{
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 .nav--menu-item{
     display: inline;
+
+}
+.nav--menu-item > a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #222222;
+    display: block;
+    padding: 16px 18px;
+    text-decoration: none;
+    float: left;
+}
+.nav--menu-item >a:hover{
+    color: #8e7bef;
+}
+
+ul{
     float: right;
+    background-color: #ffffff;
+}
+nav{
+    background-color: #222222;
 }
