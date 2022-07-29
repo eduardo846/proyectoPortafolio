@@ -84,4 +84,18 @@ img{
     margin-bottom: .5rem;
     font-size: 24px;
    }
-  
+  /*about*/
+  .about--me-info{
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .about--me-info2{
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    margin: 4rem 9rem 9rem;
+    text-align: center;
+    font-size: 12px;
+  }
