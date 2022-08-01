@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.nav--memu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav--menu-item{
+    display: inline;
+}
+.nav--menu-item > a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #222222;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+.nav--menu-item >a:hover{
+    color: #8E7BEF;
+}
+.navegator>ul{
+    flex-direction: row;
+    position: relative;
+    justify-content: right;
+    background-color: #FFFFFF;
+}
+.navegator{
+   /* background-color: #222222;*/
+    margin-left: 30%;
+}
+.section-foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.styles__bot {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 30rem;
+    margin-left: 0rem;
+}
+.bot__container>button {
+    background-color: #8E7BEF;
+    border-style: hidden;
+}
+
+   .back__img {
+       width: 2.5rem;
+       height: 2.5rem;
+       border-radius: 50%;
+       text-align: center;
+       background-color: #8E7BEF;
+       margin-right: 4rem;
+    }
+    .back__img>img{
+        width: 1.5rem;
+        margin-top: .5rem;
+        background-color: #8E7BEF;
+    }
+    .social-images {
+        display: inline-flex;
+        margin-top: .5rem;
+        margin-bottom: 1.5rem;   
+        justify-content: space-evenly;
+         
+    }
+  .section--image-contenido{
+    margin-right: 4rem;
+  }
+  .section--foto-producDesigner{
+    font-size: 60px;
+    margin: 0rem;
+   }
+   .section--foto-texto{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 24px;
+   }
+  /*about*/
+  .about--me-info{
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .about--me-info2{
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    margin: 4rem 9rem 9rem;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /*Skill*/
+ .skills{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 9rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+}
+.skills--me-info1{
+    background: #8E7BEF ;
+    width: 20rem;
+    height: 20rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    display:inline-table;
+}
+.skill--me-img{
+    margin: 0rem 0rem 0rem;
+    display: inline;
+}
+.skills--me-info1-h4{
+    display: inline;
+}
+.skill--me-img1{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
