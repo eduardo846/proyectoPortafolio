@@ -38,52 +38,27 @@ img{
     margin-left: 30%;
 }
 /*foto*/
-.section-foto{
-    margin-left: 10rem;
+.fondo-foto{
+    background-color: tomato;
+    display: flex;
     justify-content: center;
-
-}
-.section--me-foto{
-    display: inline-flex;
-}
-.section--me-items{
-    margin: 4rem;
-}
-.section--me-h2{
-    font-size: 50px;
 }
 .section--me-p{
-    margin-bottom: 1rem;
-    margin-right: 8rem;
     text-align: justify;
-}
-
-.section--me-item2{
-    display: inline-flex;
-}
-.section--me-item22{
-    background-color: #8E7BEF;
-    width: 3rem;
-    height: 3rem;
-    text-align: center;
-    margin: .5rem;
-    border-radius: 50%;
-}
-.section--me-img{
-    margin: .5rem;
-}
-.button{
-    background-color: #8E7BEF;
-    margin-right: 8rem;
-    text-align: center;
     width: 20rem;
 }
-.button--me{
-    display: inline-flex;
+.section--me-fotoh{
+    margin: 4rem;
 }
-.email{
-    width: 1rem;
-    height: 1rem;
+.section--me-fotop{
+    font-size: 60px;
+}
+.section--me-img{
+    display: inline-table;
+}
+.section--me-img1{
+    width: 2rem;
+    height: 2rem;
 }
 
 /*Acerca de mí*/
@@ -93,9 +68,10 @@ img{
     font-size: 14px;
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 .about--info{
-    text-align: center;
+    text-align: justify;
     margin: 2rem 12rem 2rem 14rem;
     display: flex;
 }
@@ -127,12 +103,14 @@ img{
 /*Experience*/
 .fondo-experiencia{
     background-color: tomato;
-    text-align: center;
+    text-align-last: center;
 }
 .experience--me-items-img{
     width: 6rem;
 }
 .section--me-img{
+    margin-top: 1rem;
+    margin-left: 1rem;
     display: inline-flex;
 }
 .experiencia-h2{
