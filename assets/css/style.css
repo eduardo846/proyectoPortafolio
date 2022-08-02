@@ -51,10 +51,11 @@ img{
 }
 .section--me-h2{
     font-size: 50px;
-    margin-bottom: 1rem;
 }
 .section--me-p{
     margin-bottom: 1rem;
+    margin-right: 8rem;
+    text-align: justify;
 }
 
 .section--me-item2{
@@ -65,13 +66,25 @@ img{
     width: 3rem;
     height: 3rem;
     text-align: center;
-    margin: .4rem;
+    margin: .5rem;
     border-radius: 50%;
 }
 .section--me-img{
     margin: .5rem;
 }
-
+.button{
+    background-color: #8E7BEF;
+    margin-right: 8rem;
+    text-align: center;
+    width: 20rem;
+}
+.button--me{
+    display: inline-flex;
+}
+.email{
+    width: 1rem;
+    height: 1rem;
+}
 
 /*Acerca de mí*/
 .titulo{
@@ -86,38 +99,44 @@ img{
     margin: 2rem 12rem 2rem 14rem;
     display: flex;
 }
-.skill--me-items{
-    display: inline-table;
-    margin: 2rem 0rem 2rem 12rem;
-    width: 14rem;
-    height: 14rem;
-    background-color: #8E7BEF;
+/*Mis Habilidades*/
+.section--me-skills{
+    text-align:center;
 }
-.skill--me-items1{
-    font-size: 20px;
-    margin: .5rem;
-    text-align: center;
+.section--me-item{
+    background-color: #f9f6ff;
+    display:inline-table;
+    width: 16rem;
+    height: 8rem;
+    margin: 2rem;
 }
-.skill--me-items>p{
-    margin: 1rem;
+.section--me-itemp{
+    padding: 1rem;
     text-align: justify;
+}
+.section--me-itemimg{
+    width: 20px;
+    height: 20px;
+}
+.im{
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-left: .5rem;
 }
 
 /*Experience*/
-.experience--me{
-    text-align-last: center;
-}
-.experience--me-items-exp{
-    display: inline-flex;
-    margin: 1rem;
+.fondo-experiencia{
+    background-color: tomato;
+    text-align: center;
 }
 .experience--me-items-img{
-    margin-left: 8rem;
-    width: 80px;
-    height: 80px;
+    width: 6rem;
 }
-.experience--me-items-h2{
-    margin-right: 1rem;
+.section--me-img{
+    display: inline-flex;
+}
+.experiencia-h2{
+    margin-left: 1rem;
 }
 /*Portafolio*/
 .design--me{
