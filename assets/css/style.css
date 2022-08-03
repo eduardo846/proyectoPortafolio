@@ -63,6 +63,16 @@ img{
     width: 2rem;
     height: 2rem;
 }
+.section-button{
+    background-color: #8E7BEF;
+    display:flex;
+}
+.section--me-button{
+    margin-left: 4rem;
+}
+.section--me-button2{
+    margin-top: .5rem;
+}
 
 /*Acerca de mí*/
 .titulo{
