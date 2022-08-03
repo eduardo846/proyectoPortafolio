@@ -43,7 +43,11 @@ img{
     display: flex;
     justify-content: center;
 }
+.d1{
+    width: 1rem;
+}
 .section--me-p{
+    font-family: 'Montserrat',sans-serif;
     text-align: justify;
     width: 20rem;
 }
@@ -51,7 +55,8 @@ img{
     margin: 4rem;
 }
 .section--me-fotop{
-    font-size: 60px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
 }
 .section--me-img{
     display: inline-table;
@@ -71,6 +76,7 @@ img{
     margin-top: 2rem;
 }
 .about--info{
+    font-family: 'Montserrat',sans-serif;
     text-align: justify;
     margin: 2rem 12rem 2rem 14rem;
     display: flex;
@@ -87,6 +93,7 @@ img{
     margin: 2rem;
 }
 .section--me-itemp{
+    font-family: 'Montserrat',sans-serif;
     padding: 1rem;
     text-align: justify;
 }
