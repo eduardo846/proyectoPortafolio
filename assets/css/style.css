@@ -1,3 +1,4 @@
+@import 'media.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 *{
     margin: 0;
@@ -39,11 +40,13 @@ img{
 }
 /*foto*/
 .fondo-foto{
-    background-color: tomato;
+    /*background-color: tomato;*/
     display: flex;
     justify-content: center;
 }
-
+.section--me-img2{
+    display: none;
+}
 .section--me-p{
     font-family: 'Montserrat',sans-serif;
     text-align: justify;
@@ -76,7 +79,7 @@ img{
 
 /*Acerca de mí*/
 .titulo{
-    background-color: #8E7BEF;
+    /*background-color: #8E7BEF;*/
     font-family: 'Montserrat',sans-serif;
     font-size: 14px;
     display: flex;
@@ -117,7 +120,7 @@ img{
 
 /*Experience*/
 .fondo-experiencia{
-    background-color: tomato;
+    /*background-color: tomato;*/
     text-align-last: center;
 }
 .experience--me-items-img{
