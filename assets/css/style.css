@@ -117,7 +117,10 @@ img{
     margin-top: 1rem;
     margin-left: .5rem;
 }
-
+.section--me-itemimg-h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+}
 /*Experience*/
 .fondo-experiencia{
     /*background-color: tomato;*/
@@ -132,7 +135,23 @@ img{
     display: inline-flex;
 }
 .experiencia-h2{
+    font-family: 'Montserrat',sans-serif;
     margin-left: 1rem;
+}
+.experience--me-items-p{
+    font-family: 'Montserrat',sans-serif;
+    color: #f9f5f2;
+    font-size: 13px;
+    text-align-last:left ;
+}
+.experience--me-items-h2{
+    font-family: 'Montserrat',sans-serif;
+    text-align-last: left;
+}
+.experience--me-items-h2-2{
+    text-align-last: left;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
 }
 /*Portafolio*/
 .design--me{
@@ -168,5 +187,14 @@ img{
 
 }
 .contact-me-p{
+    font-family: 'Montserrat',sans-serif;
     text-align: center;
+    font-size: 10px;
+}
+.contact-me-p-2{
+    margin-top: 1rem;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: #f9f5f2;
 }
