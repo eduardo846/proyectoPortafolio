@@ -10,37 +10,27 @@ img{
     max-height: 100%;
     object-fit: cover;
 }
-
 .header{
     min-height: 5vh;
 }
 nav{
-    position: fixed;
+    position:fixed;
     top: 0;
     width: 100%;
     padding: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   height: 70px;
+    height: 70px;
 }
-
 nav>ul{
     display: flex;
     gap: 1em;
 }
 
-.nav--memu{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-
 .nav--menu-item{
     display: inline;
 }
-
 .nav--menu-item > a{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -48,23 +38,17 @@ nav>ul{
     padding: 16px 18px;
     text-decoration: none;
 }
-
-
 .nav--menu-item >a:hover{
     color: #8E7BEF;
 }
-
 .icon__burger{
     cursor: pointer;
     display: none;
 }
-
-
-
-@media (max-width: 600px) {
+@media (max-width: 600px){
     nav>ul{
-        background-color: rebeccapurple;
-        position: absolute;
+        background-color: #8E7BEF;
+        position:absolute;
         top: 70px;
         width: 100%;
         left: 0;
@@ -74,17 +58,15 @@ nav>ul{
         justify-content: center;
         margin-top: -100%;
         transition: margin-top 0.5s;
+        opacity: 95%;
     }
-
     .show__menu{
         margin-top: 0;
     }
-    .icon__burger-show{
+    .icon_burger-show{
         display: block;
     }
-
 }
-
 
 /*foto*/
 .fondo-foto{
