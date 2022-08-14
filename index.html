@@ -15,14 +15,17 @@
   <body>
     <!--Menu-->
     <div class="wrapper">
-      <header>
+      <header class="header">
         <nav class="navbar">
           <div class="brand">
             <h2>H <span>R</span></h2>
           </div>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
           <ul class="menu">
-            <li ><a class="active" href="#">Home</a></li>
-            <li><a href="#about">About me</a></li>
+            <li ><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">Conoceme</a></li>
             <li><a href="#portafolio">Portafolio</a></liclass=>
             <li><a href="#contacto">Contacto</a></liclass=>
           </ul>
@@ -30,9 +33,9 @@
       </header>
 
       <!--Contenido-->
-    <main class="main">
+    <main class="main" id="home">
         <div class="info-content">
-            <h1>Soy <span>Héctor </span>Ramírez </h1>
+            <h1>Soy <span>Héctor Ramírez</span></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, obcaecati!</p>
             <a download href="#">
                 <button class="download-cv" download="#">Download CV</button>
@@ -165,5 +168,7 @@
             <i class="fab fa-linkedin-in"></i>
         </div>
     </div>
+
+    <script src="./assets/js/main.js"></script>
     </body>
 </html>

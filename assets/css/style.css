@@ -13,10 +13,20 @@ body {
   background-color: #191c32;
   color: #fff;
 }
+.header {
+  background-color: #191c32;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 2em;
+  max-width: 992px;
+  margin: 0 auto;
 }
 .brand {
   margin-top: -7px;
@@ -27,11 +37,12 @@ body {
 }
 .menu {
   display: flex;
-  width: 50%;
+  width: max-content;
   justify-content: space-around;
 }
 .menu li {
   list-style: none;
+  text-transform: uppercase;
 }
 .menu a {
   color: #fff;
@@ -76,9 +87,10 @@ span {
 }
 
 .main img {
-  width: 400px;
+  margin-top: 6rem;
+  width: 450px;
   border: 7px solid aqua;
-  height: 520px;
+  height: 540px;
 }
 .about {
   display: grid;
@@ -109,10 +121,10 @@ span {
   margin-bottom: 1em;
 }
 .portfolio,
-.contact-section{
-    width: 100vw;
-    background-color: #191c32;
-    color: #fff;
+.contact-section {
+  width: 100vw;
+  background-color: #191c32;
+  color: #fff;
 }
 .portfolio-headings,
 .contact-section {
@@ -173,37 +185,49 @@ span {
   margin-top: 1em;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 150px;
-  background-color:#191c32;
+  background-color: #191c32;
   border: #101e4b solid;
 }
-.footer-content h2{
+.footer-content h2 {
   font-size: 1.5em;
-
 }
 .footer-content h5,
-.sotial-network i{
+.sotial-network i {
   font-size: 1em;
   color: #fff;
-  
 }
-.sotial-network{
+.sotial-network {
   display: flex;
   justify-content: space-evenly;
   width: 300px;
   margin-top: 1em;
 }
+.nav-toggle {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 25px;
+  padding: 0 20px;
+  line-height: 5px;
+  display: none;
+  cursor: pointer;
+}
 
-
-
-@media (max-width: 768px){
-  .about img{
+@media (max-width: 768px) {
+  .main {
+    justify-content: center;
+  }
+  .main img{
+    border: none;
+  }
+  .about img {
     display: none;
   }
   .about-info {
@@ -216,5 +240,29 @@ span {
     align-content: center;
     flex-direction: column;
   }
-}
+  .header {
+    height: 60px;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #2c3e50;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
 
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .nav-menu_visible{
+    left: 0;
+  }
+}
